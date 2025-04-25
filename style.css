@@ -1,0 +1,298 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background:rgb(255, 255, 255);
+}
+header{
+    height:60px;
+    background:white;
+}
+.img{
+    height:50px;
+    padding-left:20px;
+    margin-right:800px;
+    padding-top:5px;
+}
+ul{
+    display:flex;
+    list-style:none;
+    align-items: center;
+    
+}
+.two{
+    margin-left:30px;
+    cursor:pointer;
+}
+h1{
+    text-align: center;
+    margin-top:89px;
+    font-family: "Poppins", sans-serif;
+    font-weight:150px;
+    letter-spacing: -1px;
+    font-size: 48px;
+}
+p{
+    text-align: center;
+    margin-top:30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+}
+.btn-1{
+    background-color: rgb(75, 180, 215);
+    color:white;
+    height:10px;
+    width:220px;
+    text-align: center;
+    justify-self: center;
+    align-items: center;
+    border-radius: 5px;
+    padding:19px;
+    margin-top: 25px;
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.middd{
+    height: 50px;
+}
+.mid{
+    display:flex;
+    justify-content: center;
+    margin-top: 29px;
+    margin-left:-375px;
+}
+.grid{
+    margin-top: 30px;
+    display: grid;
+    max-width: 56vw;
+    margin:auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 180px 200px 200px; */
+    text-align: center;
+    gap:30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    margin-bottom:40px;
+}
+.box1{
+    padding-top:50px;
+    /* grid-row: 1/2;
+    grid-column: 1/2; */
+    background:#f9f9f9;
+    border-radius: 10px;
+}
+.box2{
+    padding-top:50px;
+    /* grid-row: 1/2;
+    grid-column: 2/3; */
+    background:#f9f9f9;
+    border-radius: 10px;
+}
+.box3{
+    padding-top:50px;
+    /* grid-row: -4/-3;
+    grid-column: 3/4; */
+    background:#f9f9f9;
+    border-radius: 10px;
+}
+.box4{
+    padding-top:50px;
+    /* grid-row: 2/3;
+    grid-column: 1/2; */
+    background:#f9f9f9;
+    border-radius: 10px;
+}
+.box5{
+    padding-top:50px;
+    /* grid-row: 2/3;
+    grid-column: 2/3; */
+    background:#f9f9f9;
+    border-radius: 10px;
+}
+.box6{
+    padding-top:50px;
+    /* grid-row: 2/3;
+    grid-column: 3/4; */
+    background:#f9f9f9;
+    border-radius: 10px;
+}
+.box7{
+    padding-top:50px;
+    /* grid-row: 3/4;
+    grid-column: 1/2; */
+    background:#f9f9f9;
+    border-radius: 10px;
+}
+.box8{
+    padding-top:50px;
+    /* grid-row: 3/4;
+    grid-column: 2/3; */
+    background:#f9f9f9;
+    border-radius: 10px;
+}
+.box9{
+    padding-top:50px;
+    /* grid-row: 3/4;
+    grid-column: 3/4; */
+    background:#f9f9f9;
+    border-radius: 10px;
+}
+#edit1{
+    background-color: rgb(75, 180, 215);
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    border:none;
+    margin-top:25px;
+}
+#edit2{
+    background-color: rgba(43, 148, 55, 0.842);
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    border:none;
+}
+.oo{
+    background-color:#222;
+    height:700px;
+}
+.ooo{
+    background-color: white;
+    height:700px;
+}
+@media screen and (max-width:1080px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .img {
+        height: 50px;
+        padding-left: 500px;
+        margin-right: 153px;
+        padding-top: 16px;
+    }
+    header{
+        height: 100px;
+        background: white;
+    }    
+    .two {
+        margin-left: 31px;
+        cursor: pointer;
+        font-size: 21px;
+    }
+    .btn-1 {
+        background-color: rgb(75, 180, 215);
+        color: white;
+        height: 16px;
+        width: 236px;
+        text-align: center;
+        justify-self: center;
+        align-items: center;
+        border-radius: 5px;
+        padding: 19px;
+        margin-top: 29px;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+    }
+    .middd {
+        height: 58px;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        font-size: larger;
+        align-items: center;
+    }
+    .box1 {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        width: 373px;
+        margin-left: 117px;
+        justify-content: center;
+    }
+    .box2 {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        width: 373px;
+        margin-left: 117px;
+        justify-content: center;
+    }
+    .box3 {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        width: 373px;
+        margin-left: 117px;
+        justify-content: center;
+    }
+    .box4 {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        width: 373px;
+        margin-left: 117px;
+        justify-content: center;
+    }
+    .box5 {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        width: 373px;
+        margin-left: 117px;
+        justify-content: center;
+    }
+    .box6 {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        width: 373px;
+        margin-left: 117px;
+        justify-content: center;
+    }
+    .box7 {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        width: 373px;
+        margin-left: 117px;
+        justify-content: center;
+    }
+    .box8 {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        width: 373px;
+        margin-left: 117px;
+        justify-content: center;
+    }
+    .box9 {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        width: 373px;
+        margin-left: 117px;
+        justify-content: center;
+    }
+}
+
+
